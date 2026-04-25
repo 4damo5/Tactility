@@ -5,6 +5,8 @@
 
 Tactility is a handheld Braille reading device that converts digital text into tactile output in real time. Existing refreshable Braille displays cost hundreds to thousands of dollars and are rarely portable, while Tactility is designed to be compact and affordable.
 
+<img src="./Tactility-animation.gif" width="400">
+
 ## The Team
 
 | Name | Team |
