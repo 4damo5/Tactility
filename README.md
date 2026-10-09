@@ -21,7 +21,7 @@ Tactility is a handheld Braille reading device that converts digital text into t
 
 ## How It Works
 
-A rack-and-pinion mechanism drives 6 pins per Braille cell using N20 gearbox motors. An ESP32 microcontroller runs a PDF → text → Braille pipeline, mapping each character to a 6-pin binary array and actuating the motors accordingly. Navigation is handled via scroll wheel, push buttons, and vibration feedback. The PCB was designed in Altium.
+A rack-and-pinion mechanism drives 6 pins per Braille cell using N20 gearbox motors. An ESP32 microcontroller converts incoming text to Braille, mapping each character to a 6-pin binary array and actuating the motors accordingly. A scroll wheel sets reading speed, a push button pauses and resumes, and a vibration motor provides haptic feedback. The PCB was designed in Altium.
 
 ## Prototypes
 
@@ -29,6 +29,7 @@ Five iterations were built over the semester, starting with a breadboard proof-o
 
 ## Future Work
 
+- PDF input (PDF → text → Braille pipeline)
 - Electromagnetic pin system for a smaller footprint
 - MagSafe induction charging for single-hand use
 - Phone case form factor
